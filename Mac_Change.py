@@ -14,6 +14,6 @@ elif x == 2 :
     os.system("ifconfig wlan0 down")
     os.system("macchanger -p wlan0")
     os.system("ifconfig wlan0 up")
-    print("Mac Eski Haline Getirildi")
+    print("Mac Adresiniz Eski Haline Getirildi")
 else :
     print("yanlış komut girdiniz")
